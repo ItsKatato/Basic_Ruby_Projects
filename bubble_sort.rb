@@ -1,5 +1,4 @@
 def bubble_sort(array)
-    array_length = array.length
     loop do
         array.each_index do |index|
             unless index == array.length - 1
